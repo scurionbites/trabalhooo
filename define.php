@@ -1,12 +1,7 @@
+
 <?php
-include'define.php';
-
-$link = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
-
-if(!link){
-    echo "Error: Unable to connect to MYSQL." . PHP_EOL;
-    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-    exit;
-}
+define("HOST", "localhost");
+define("USER", "root");
+define("PASSWORD", "");
+define("DATABASE","coming_soon_project");
 ?>
